@@ -1,0 +1,67 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.titulo{
+    text-align: center;
+    padding: 10px;
+    background: #ccc;
+    text-transform: uppercase;
+    color:peru;
+}
+
+.navegacion{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    list-style: none;
+    background: #ccc;
+}
+
+.navegacion > li > a{
+    
+    font-weight: bold;
+    color: black;
+    padding: 10px;
+    font-size: 18px;
+}
+
+a:hover{
+    background: brown;
+}
+
+section{
+    height: 100%;
+}
+
+.articulo{
+    background: #ccc;
+    display: flex;
+    justify-content: space-around;
+}
+
+img{
+    height: 360px;
+    border: 10px solid crimson;
+}
+
+.texto{
+    text-align: center;
+    padding: 20px;
+    font-weight: bold;
+    font-size: 20px;
+    color:crimson;
+}
+
+figure > p{
+    margin-bottom: 7px;
+}
+
+footer{
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    background: #ccc;
+}
